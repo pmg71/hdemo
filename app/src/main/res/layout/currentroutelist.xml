@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:layout_alignmentParent="http://schemas.android.com/tools"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="10dp"
+        app:cardCornerRadius="10dp">
+
+
+        <TextView
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="Current Routes"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="source      -"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="130dp"
+            android:text="No. of Seats:"
+            android:textSize="20dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp" />
+
+        <LinearLayout
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="50dp"
+                android:text="Destination"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="153dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Vehicle type:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/seats"
+                android:layout_width="68dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="10dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
